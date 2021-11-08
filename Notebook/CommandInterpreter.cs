@@ -212,7 +212,7 @@ namespace Notebook
                 return;
             }
             foreach (Note n in notebook)
-                Console.WriteLine(n);
+                Console.WriteLine("Id " + n.Id + ": " + n);
         }
 
         private static void DeleteNote(List<Note> notebook, string[] args)
